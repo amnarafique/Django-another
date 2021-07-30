@@ -22,4 +22,8 @@ class Task(models.Model):
         return self.title
 
 
+def test():
+    pass
+
+
 
