@@ -5,6 +5,9 @@ from django.shortcuts import render, redirect
 from .forms import TaskForm
 from .models import Task
 
+def register():
+	pass
+
 
 def task_create(request):
     if request.method == 'POST':
